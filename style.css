@@ -1,0 +1,102 @@
+body{
+    background-color : rebeccapurple;
+    background-image: url(downloaddd.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+p{
+    color: red;
+    font-size: 110%; /* def = 16pxl  */
+}
+
+
+p , h1 {
+    text-decoration: underline;
+    font-size: 1.5em; /* 1 = 16pxl*/
+    font-style: oblique;
+}
+
+
+h1{
+    text-decoration: line-through;
+    font-style: italic;
+    font-variant: small-caps;
+    border-style:solid ;
+    border-color: red;
+    border: solid  red  9px;
+    /* border-width: 19px 299px 26px 70px; */
+    border-top: dashed blue 1px;
+    /* padding-top: 50px;
+    padding-right: 555px;
+    padding-left: 222px;
+    padding-bottom: 20px; */
+    padding: 70px 50px 20px 30px;
+    margin: 30px 20px 20px 40px;
+    
+}
+
+h2{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h2{
+    text-decoration:underline wavy;
+    font-weight: 900;
+}
+
+
+table{
+    color: rgba(249, 5, 1 ,0.5);
+}
+
+li{
+
+color: red;
+}
+
+blockquote{
+    color: aqua;
+}
+
+
+.c1{
+    color: rgb(0, 0, 0);
+}
+
+#t1{
+    color: aquamarine;
+}
+
+#div1{
+    color: rgb(0, 0, 0);
+}
+
+a:link{
+    color:rebeccapurple;
+    text-decoration: wavy;
+}
+
+a:visited{
+    color: blue;
+    font-weight: 300;
+}
+
+a:hover{ /* while clicking*/
+    color:whitesmoke ;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+
+
+#github:hover{
+    color: chocolate;
+}
